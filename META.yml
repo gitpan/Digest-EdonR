@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Digest-EdonR
-version:            0.02
+version:            0.03
 abstract:           Perl interface to the Edon-R digest algorithm
 author:
     - gray <gray@cpan.org>
@@ -11,9 +11,8 @@ configure_requires:
 build_requires:
     Test::More:  0.82
 requires:
-    Digest:        0
-    MIME::Base64:  0
-    parent:        0
+    Digest:  0
+    parent:  0
 resources:
     repository:  http://github.com/gray/digest-edonr
 no_index:
